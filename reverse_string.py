@@ -1,9 +1,9 @@
 def rev_string(str):
     rev = reversed(str)
-    print(rev)
+    return rev
 
 
-rev_string("Hello")
+print(rev_string("Pythonproject"))
 
 
 new = "hello"
