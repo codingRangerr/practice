@@ -10,3 +10,11 @@ for i in range(1, 101):
 
     else:
         print(i)
+        
+  ####################################
+def fizzbuzz(num)
+    a="Fizz"
+    b="Buzz"
+    for x in range(1,num):
+        print(a+b if x%15==0 else a if x%3==0 else b if x%5==0 else x)
+        
