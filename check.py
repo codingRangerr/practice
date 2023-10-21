@@ -11,13 +11,11 @@ def SearchingChallenge(strParam):
         char1 = str[n]
         if char1 not in char_freq:
             char_freq[char1] = 1
-
         else:
             char_freq[char1] += 1
 
         while len(char_freq) > k:
             char2 = str[start]
-
             char_freq[char2] -= 1
 
             if char_freq[char2] == 0:
@@ -28,7 +26,6 @@ def SearchingChallenge(strParam):
         if n - start + 1 > maxLenght:
             string = str[start: n + 1]
     return string
-
 
 # keep this function call here
 print(SearchingChallenge(input()))
